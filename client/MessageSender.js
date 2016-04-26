@@ -10,7 +10,7 @@ const MessageSender = ({sendMessage}) => {
   return (
     <form onSubmit={submitForm}>
       <input type='text' name='message' />
-      <button type='submit'>Send</button>
+      <button type='submit'>end</button>
     </form>
   );
 };
